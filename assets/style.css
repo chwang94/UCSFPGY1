@@ -1,0 +1,180 @@
+body{
+	font-family:Lato;
+	margin:0 auto;
+	height:auto;
+}
+
+
+
+.navbar-container{
+	top:0;
+	left:0;
+	z-index:3;
+	position:fixed;
+	width:100%;
+	height:30px;
+	background-color:rgba(5, 32, 73);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition:all 0.5s;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform:translateZ(0);
+	overflow:hidden;
+}
+
+
+#logo{
+	float:left;
+	position:relative;
+	object-fit:cover;
+	width:50px;
+	margin-top:5px;
+	margin-left:50px;
+	height:20px;
+}
+
+.logo-name{
+	float:left;
+	font-weight:400;
+	margin-top:10px;
+	margin-left:15px;
+	color:white;
+	font-size:10px;
+	letter-spacing:1.5;
+}
+
+
+ul{
+	list-style-type:none;
+}
+
+.navbar-items{
+	height:100%;
+	position:relative;
+	float:right;
+	margin-right:80px;
+}
+
+.nav-head{
+	position:relative;
+	cursor:pointer;
+	float:left;
+	color:white;
+	font-weight:300;
+	font-size:12px;
+	margin-left:50px;
+	margin-top:-8px;
+	-webkit-transition: 0.8s;
+	-moz-transition: 0.8s;
+	-o-transition: 0.8s;
+	transition:0.8s;
+}
+
+#background-container{
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition:0.5s;
+}
+
+.img-scaled{
+	height:100%;
+	width:100%;
+}
+
+
+.home-overlay{
+	position:absolute;
+	background:rgba(0,0,0,0.55);
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:2;
+}
+
+
+.home-container{
+	position:relative;
+	text-align:center;
+	top:calc(25%);
+	margin:0 auto;
+	width:50%;
+	height:200px;
+	color:white;
+}
+
+
+.home-head{
+	letter-spacing:2;
+	font-size:36px;
+	font-weight:300;
+	margin-bottom:35px;
+	text-transform:uppercase;
+}
+
+
+.home-text{
+	font-size:16px;
+	line-height:1.6;
+}
+
+
+.home-border{
+	margin:0 auto;
+	margin-top:15px;
+	position:relative;
+	background:white;
+	height:2px;
+	width:20%;
+	-webkit-transition: width 0.2s;
+	-moz-transition: width 0.2s;
+	-o-transition: width 0.2s;
+	transition:width 0.2s;
+}
+
+.home-button{
+	cursor:pointer;
+	text-align:center;
+	position:relative;
+	margin:0 auto;
+	margin-top:120px;
+	padding:10px;
+	width:100px;
+	font-size:12px;
+	font-weight:1000;
+	color:white;
+	border-color:white;
+	border-style:solid;
+	border-width:2px;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition:0.5s;
+	letter-spacing:2;
+	word-spacing:5;
+}
+
+
+
+/*javascript-active*/ 
+
+
+.button-active{
+	background-color:white;
+	color:rgba(126, 80, 69, 1);
+}
+
+
+.border-active{
+	width:100%;
+	transition-duration:1s;
+}
+
+.border-inactive{
+	width:20%;
+	transition-duration:1s;
+}
+
